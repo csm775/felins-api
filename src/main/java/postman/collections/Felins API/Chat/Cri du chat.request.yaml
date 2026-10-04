@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8080/chat/cri
+method: GET
+order: 3936015378870866

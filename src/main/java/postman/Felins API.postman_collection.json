@@ -1,0 +1,152 @@
+{
+  "info": {
+    "name": "Felins API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Chat",
+      "item": [
+        {
+          "name": "Créer un chat",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "http://localhost:8080/chat?couleur=noir&age=3",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["chat"],
+              "query": [
+                { "key": "couleur", "value": "noir" },
+                { "key": "age", "value": "3" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Récupérer un chat",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:8080/chat/1",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["chat", "1"]
+            }
+          }
+        },
+        {
+          "name": "Cri du chat",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:8080/chat/cri",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["chat", "cri"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lion",
+      "item": [
+        {
+          "name": "Créer un lion",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "http://localhost:8080/lion?couleur=dore&age=8",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["lion"],
+              "query": [
+                { "key": "couleur", "value": "dore" },
+                { "key": "age", "value": "8" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Récupérer un lion",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:8080/lion/1",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["lion", "1"]
+            }
+          }
+        },
+        {
+          "name": "Cri du lion",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:8080/lion/cri",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["lion", "cri"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tigre",
+      "item": [
+        {
+          "name": "Créer un tigre",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "http://localhost:8080/tigre?couleur=orange&age=11",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["tigre"],
+              "query": [
+                { "key": "couleur", "value": "orange" },
+                { "key": "age", "value": "11" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Récupérer un tigre",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:8080/tigre/1",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["tigre", "1"]
+            }
+          }
+        },
+        {
+          "name": "Cri du tigre",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:8080/tigre/cri",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["tigre", "cri"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

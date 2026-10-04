@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8080/chat?couleur=noir&age=3
+method: POST
+queryParams:
+  couleur: noir
+  age: "3"
+order: 1791055196810

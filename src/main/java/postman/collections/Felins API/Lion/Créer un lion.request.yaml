@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8080/lion?couleur=dore&age=8
+method: POST
+queryParams:
+  couleur: dore
+  age: "8"
+order: 1791055304399

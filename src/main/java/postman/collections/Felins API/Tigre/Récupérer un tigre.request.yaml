@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8080/tigre/1
+method: GET
+order: 2180896531435928
